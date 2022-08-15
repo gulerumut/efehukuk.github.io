@@ -23,3 +23,6 @@
 #works .items .item {
     width: 100%;
 }
+#contact .call-adress {
+    padding: 0.5rem;
+}
