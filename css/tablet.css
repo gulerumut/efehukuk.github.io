@@ -6,6 +6,8 @@
 }
 #home {
     flex-direction: column;
+    padding: 5rem 2rem;
+    padding-top: 150px;
 }
 #home #me {
     min-width: none;
