@@ -1,6 +1,9 @@
 #navbar ul li a {
     font-size: 1.2em;
 }
-#footer {
-    padding: 0.5rem;
+#contact {
+    padding: 0.75rem;
+}
+.adress {
+    font-size: 0.75rem;
 }
