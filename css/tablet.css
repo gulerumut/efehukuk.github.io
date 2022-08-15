@@ -1,0 +1,23 @@
+#navbar {
+    height: 150px;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+#home {
+    flex-direction: column;
+}
+#home #me {
+    min-width: none;
+    padding: 0.5rem;
+}
+#home #cv {
+    font-size: 1rem;
+    
+}
+#works .items {
+    flex-direction: column;
+}
+#works .items .item {
+    width: 100%;
+}

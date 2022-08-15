@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+
+}
+header {
+    position: fixed;
+    width: 100%;
+}
+
+.left-b {
+    border-right: 5px solid #fff;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+#navbar {
+    
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 100px;
+}
+#navbar .main-icon {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#navbar .main-icon div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#navbar .main-icon img {
+    max-width: 35px;
+    height: auto;
+}
+
+
+
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a {
+    padding: 0.5rem;
+}
+#navbar ul li a:hover {
+    background-color: #fff;
+    color: blue;
+    border-radius: 5px;
+}
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* Home Section */
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem;
+    padding-top: 200px;
+    border-bottom: 1px solid grey;
+}
+#home .me {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: 400px;
+    padding: 2rem;
+}
+#home .me h1 {
+    color: #fff;
+    
+    
+}
+#home .me:hover {
+    background-color: rgb(151, 148, 148);
+}
+#home #cv {
+    font-size: 1.5em;
+}
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name h2 {
+    margin-bottom: 0.75rem;
+}
+
+#home .name .p {
+    opacity: 0.8;
+    font-style: italic;
+}
+
+#works {
+    color: #fff;
+    padding: 1rem;
+    padding-top: 150px;
+}
+#works .items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+#works .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+#works .items .item:hover {
+    color: black;
+    opacity: 0.6;
+}
+
+#contact {
+    color: #fff;
+    padding: 100px;
+}
+
+#contact .contact-form {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+#contact .contact-form ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    align-self: center;
+}
+#contact .contact-form ul a {
+    padding: 1rem;
+    font-size: 2rem;
+}
+#contact .contact-form ul a:hover {
+    opacity: 0.5;
+}
+#contact .call-adress {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+#contact .call-adress .transport {
+    padding: 1rem;
+}
