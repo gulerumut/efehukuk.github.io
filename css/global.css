@@ -1,3 +1,11 @@
+/* Font tff */
+@font-face {
+  font-family: "Magesta";
+  src: url(magesta.ttf);
+}
+
+
+
 /* TEXT  */
 
 .text-center {
