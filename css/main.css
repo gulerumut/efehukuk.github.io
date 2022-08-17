@@ -60,7 +60,7 @@ header {
 }
 #navbar ul li a:hover {
     background-color: #fff;
-    color: blue;
+    color: #062e51;
     border-radius: 5px;
 }
 .container {
