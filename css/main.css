@@ -46,7 +46,11 @@ header {
     max-width: 35px;
     height: auto;
 }
-
+#sezo {
+    font-family: 'Magesta', sans-serif;
+    font-size: 2rem;
+    display: none;
+}
 
 
 
@@ -90,9 +94,9 @@ header {
     
     
 }
-#home .me:hover {
+/* #home .me:hover {
     background-color: rgb(151, 148, 148);
-}
+} */
 #home #cv {
     
     font-size: 1.5em;

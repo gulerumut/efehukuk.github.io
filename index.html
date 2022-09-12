@@ -25,7 +25,7 @@
 </head>
 <body>
     
-    <header class="bg-dark-blue">
+    <header onclick="NavbarFunc()" class="bg-dark-blue">
         <div class="container">
             <nav id="navbar">
                 <div class="main-icon">
@@ -37,6 +37,10 @@
                         <img src="img/lawyer-icon.png" alt="">
                     </div>
                     
+                    
+                </div>
+                <div>
+                    <h1 id="sezo">Sezen Biçer</h1>
                 </div>
                 
                 <ul>
@@ -52,9 +56,9 @@
        
     </header>
     <section id="home">
-        <div class="me">
+        <div onmouseover="renkDegistir1()" onmouseout="renkDegistir2()" class="me">
             <div class="image-hover text-center">
-                <h1 class="heading-small text-center">Bir Tanecik Yüce Avukat</h1>
+                <h1 class="heading-small text-center" id="birtanecik">Bir Tanecik Yüce Avukat</h1>
             </div>
             <img src="img/home_img.jpeg" alt="Yüksek Avukat Sezen Biçer">
             <div class="name text-center">
@@ -65,7 +69,7 @@
         </div>
         
         </div>
-        <div id="cv">
+        <div id="cv" onmouseover="renkDegistir1()" onmouseout="renkDegistir2()" >
             <p>
                 Dokuz Eylül Üniversitesinde 5 sene hukuk okudum. Stajımı para karşılığında köle olarak bir yıl süre ile yaptım. Bir aydır ceza muhakemesi kanunları çerçevesinde baro için çalışıyorum. Denetimli serbestlik yoksa tutuksuz yargılanmanızı sağlarım. Çok iyi ajanda tutarım, hiçbir son tarihi kaçırmam. Bu kadar bilgi size yeterli.
             </p>
@@ -130,5 +134,19 @@
             
         </div>
     </footer>
+    <script>
+        function renkDegistir1() {
+            let aa=document.getElementById("birtanecik")
+            aa.style.color="black"
+        }
+        function renkDegistir2() {
+            let aa=document.getElementById("birtanecik")
+            aa.style.color="white"
+        }
+        function NavbarFunc() {
+            let bb=document.getElementById("sezo")
+            bb.style.display="block"
+        }
+    </script>
 </body>
 </html>

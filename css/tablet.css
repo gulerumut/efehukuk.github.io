@@ -1,8 +1,13 @@
 #navbar {
-    height: 150px;
+    height: 160px;
     flex-direction: column;
-    padding-top: 2rem;
+    padding-top: 1rem;
     padding-bottom: 1rem;
+}
+#sezo {
+    font-size: 1.25rem;
+    margin-top: 0.5rem;
+
 }
 #home {
     flex-direction: column;

@@ -1,5 +1,8 @@
 /* TEXT  */
-
+font-face{
+  font-family: magesta
+  src="url(Magesta.tff)";
+  }
 .text-center {
     text-align: center;
 }
