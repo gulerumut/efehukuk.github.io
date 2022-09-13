@@ -145,7 +145,15 @@
         }
         function NavbarFunc() {
             let bb=document.getElementById("sezo")
-            bb.style.display="block"
+            console.log(bb.style.display)
+            if (bb.style.display=="flex") {
+                bb.style.display=""
+            }
+            else if (bb.style.display=="") {
+                bb.style.display="flex"
+            }
+            
+            
         }
     </script>
 </body>
