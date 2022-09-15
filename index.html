@@ -101,20 +101,20 @@
             <!-- action="https://formsubmit.co/av.sezenbicer@gmail.com" method="POST" -->
             <form action="https://formsubmit.co/av.sezenbicer@gmail.com" method="POST" >
                 <h4 class="text-center heading-medium">Bana Ulaşın</h4>
-                <div class="from-group">
+                <div class="form-group">
                     <label for="name">İsim - Soyisim</label>
                     <input type="text" class="form-control" name="name" id="name" placeholder="İsim - Soyisim" required>
                 </div>
-                <div class="from-group">
+                <div class="form-group">
                     <label for="phone">Telefon Numarası <small>(5xxxxxxxxx)</small></label>
                     <input type="tel" class="form-control" name="phone" id="phone" placeholder="5xx-xxx-xxxx" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
                     
                 </div>
-                <div class="from-group">
+                <div class="form-group">
                     <label for="email">Email</label>
                     <input type="text" class="form-control" name="email" id="email" placeholder="ornek@ornek.com" required>
                 </div>
-                <div class="from-group">
+                <div class="form-group">
                     <label for="message">Dava Ayrıntıları</label>
                     <textarea name="message" id="message" rows="5" class="form-control" placeholder="Kısaca Açıklayınız..." required></textarea>
                 </div>
@@ -133,15 +133,17 @@
             
         </div>
         <div class="call-adress">
-            <div class="transport call text-center btn btn-primary">
-                <a href="tel:0551-432-01-55" >+905514320155 </a>
-                <a href="tel:0551-432-01-55" ><i class="fa-solid fa-phone"></i></a>
-            </div>
-            <div class="transport adress text-center btn btn-primary">
+            
+                <button class="transport call text-center btn btn-primary" onclick="location.href='tel:0551-432-01-55';">
+                    <a href="tel:0551-432-01-55" >+905514320155 </a>
+                    <a href="tel:0551-432-01-55" ><i class="fa-solid fa-phone"></i></a>
+                </button>
+            
+            <button class="transport adress text-center btn btn-primary" onclick="window.open('https://maps.app.goo.gl/QGkMfMZ2xcEyRCGL6','_blank');">
                 <a href="https://maps.app.goo.gl/QGkMfMZ2xcEyRCGL6"  target="_blank">Osmangazi Mah. 578/1. Sok. Bayraklı</a>
                 <a href="https://maps.app.goo.gl/QGkMfMZ2xcEyRCGL6"  target="_blank"><i class="fa-solid fa-location-dot"></i></a>
                                 
-            </div>
+            </button>
             
         </div>
     </footer>

@@ -1,4 +1,7 @@
 /* TEXT  */
+button{
+  border: 0ch;
+}
 font-face{
   font-family: magesta
   src="url(Magesta.tff)";

@@ -149,6 +149,10 @@ header {
     margin-right: auto;
     display: flex;
     flex-direction: column;
+    
+}
+#contact .form-group{
+    padding: 0.33rem;
 }
 #contact .contact-form ul{
     list-style-type: none;
