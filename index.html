@@ -98,21 +98,30 @@
     </section>
     <footer id="contact" class="bg-dark-blue">
         <div class="contact-form">
-            <form >
+            <!-- action="https://formsubmit.co/umutgulerr14@gmail.com" method="POST" -->
+            <form action="https://formsubmit.co/umutgulerr14@gmail.com" method="POST" >
                 <h4 class="text-center heading-medium">Bana Ulaşın</h4>
                 <div class="from-group">
-                    <label for="name">İsim</label>
-                    <input type="text" class="form-control" name="name" id="name" placeholder="İsim">
+                    <label for="name">İsim - Soyisim</label>
+                    <input type="text" class="form-control" name="name" id="name" placeholder="İsim - Soyisim" required>
+                </div>
+                <div class="from-group">
+                    <label for="phone">Telefon Numarası</label>
+                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="5xx-xxx-xxxx" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
                 </div>
                 <div class="from-group">
                     <label for="email">Email</label>
-                    <input type="text" class="form-control" name="email" id="email" placeholder="ornek@ornek.com">
+                    <input type="text" class="form-control" name="email" id="email" placeholder="ornek@ornek.com" required>
                 </div>
                 <div class="from-group">
                     <label for="message">Dava Ayrıntıları</label>
-                    <textarea name="message" id="message" rows="5" class="form-control" placeholder="Kısaca Açıklayınız..."></textarea>
+                    <textarea name="message" id="message" rows="5" class="form-control" placeholder="Kısaca Açıklayınız..." required></textarea>
                 </div>
-                <button type="submit" class="btn btn-block">Gönder</button>
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="box">
+                <input type="hidden" name="_subject" value="EFE HUKUK">
+                <input type="hidden" name="_next" value="https://gulerumut.github.io/efehukuk.github.io/">
+                <button id="button-sub" onclick="ButtonAc()" type="submit" class="btn btn-block">Gönder</button>
             </form>
             <ul>
                 <li><a href="https://wa.me/905514320155" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
@@ -154,6 +163,9 @@
             }
             
             
+        }
+        function ButtonAc(){
+            document.getElementById("button-sub").innerHTML="Gönderiliyor"
         }
     </script>
 </body>
