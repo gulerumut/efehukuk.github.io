@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,33 +19,34 @@
     <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
     <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        
-    
-    
-    
-    
+
+
+
+
+
 
 </head>
+
 <body>
-    
+
     <header onclick="NavbarFunc()" class="bg-dark-blue">
         <div class="container">
             <nav id="navbar">
                 <div class="main-icon">
                     <div>
                         <h1 class="heading-big left-b">BİÇER</h1>
-                    <h1 class="heading-small right-b">Hukuk & Danışmanlık</h1>
+                        <h1 class="heading-small right-b">Hukuk & Danışmanlık</h1>
                     </div>
                     <div class="icon">
                         <img src="img/lawyer-icon.png" alt="">
                     </div>
-                    
-                    
+
+
                 </div>
                 <div>
                     <h1 id="sezo">Sezen Biçer</h1>
                 </div>
-                
+
                 <ul>
                     <li><a href="#about">Ana Sayfa</a></li>
                     <li><a href="#home">Hakkımda</a></li>
@@ -54,8 +56,8 @@
                 </ul>
             </nav>
         </div>
-        
-       
+
+
     </header>
     <section id="home">
         <div onmouseover="renkDegistir1()" onmouseout="renkDegistir2()" class="me">
@@ -68,12 +70,15 @@
                     Sezen BİÇER
                 </h2>
                 <p>Avukat | Lawyer</p>
+            </div>
+
         </div>
-        
-        </div>
-        <div id="cv" onmouseover="renkDegistir1()" onmouseout="renkDegistir2()" >
+        <div id="cv" onmouseover="renkDegistir1()" onmouseout="renkDegistir2()">
             <p>
-                Dokuz Eylül Üniversitesinde 5 sene hukuk okudum. Stajımı para karşılığında köle olarak bir yıl süre ile yaptım. Bir aydır ceza muhakemesi kanunları çerçevesinde baro için çalışıyorum. Denetimli serbestlik yoksa tutuksuz yargılanmanızı sağlarım. Çok iyi ajanda tutarım, hiçbir son tarihi kaçırmam. Bu kadar bilgi size yeterli.
+                Dokuz Eylül Üniversitesinde 5 sene hukuk okudum. Stajımı para karşılığında köle olarak bir yıl süre ile
+                yaptım. Bir aydır ceza muhakemesi kanunları çerçevesinde baro için çalışıyorum. Denetimli serbestlik
+                yoksa tutuksuz yargılanmanızı sağlarım. Çok iyi ajanda tutarım, hiçbir son tarihi kaçırmam. Bu kadar
+                bilgi size yeterli.
             </p>
         </div>
     </section>
@@ -83,7 +88,8 @@
             <article class="item">
                 <i class="fa-solid fa-gavel"></i>
                 <h3>Asliye Hukuk/Ağır Ceza Davaları</h3>
-                <p>İnsan mı öldürdünüz? Uyuşturucu mu kaçırıyorsunuz? Hırsızlık mı yaptınız? Hiç sorun değil. Ben sizi savunurum.</p>
+                <p>İnsan mı öldürdünüz? Uyuşturucu mu kaçırıyorsunuz? Hırsızlık mı yaptınız? Hiç sorun değil. Ben sizi
+                    savunurum.</p>
             </article>
             <article class="item">
                 <i class="fa-solid fa-money-bill-1-wave"></i>
@@ -96,12 +102,12 @@
                 <p>Çalışanını tazminatsız kovmak istiyorsan gel bana!</p>
             </article>
         </div>
-            
+
     </section>
     <footer id="contact" class="bg-dark-blue">
         <div class="contact-form">
             <!-- action="https://formsubmit.co/av.sezenbicer@gmail.com" method="POST" -->
-            <form action="https://formsubmit.co/av.sezenbicer@gmail.com" method="POST" >
+            <form action="https://formsubmit.co/av.sezenbicer@gmail.com" method="POST">
                 <h4 class="text-center heading-medium">Bana Ulaşın</h4>
                 <div class="form-group">
                     <label for="name">İsim - Soyisim</label>
@@ -109,16 +115,19 @@
                 </div>
                 <div class="form-group">
                     <label for="phone">Telefon Numarası <small>(5xxxxxxxxx)</small></label>
-                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="5xx-xxx-xxxx" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
-                    
+                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="5xx-xxx-xxxx"
+                        pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+
                 </div>
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="text" class="form-control" name="email" id="email" placeholder="ornek@ornek.com" required>
+                    <input type="text" class="form-control" name="email" id="email" placeholder="ornek@ornek.com"
+                        required>
                 </div>
                 <div class="form-group">
                     <label for="message">Dava Ayrıntıları</label>
-                    <textarea name="message" id="message" rows="5" class="form-control" placeholder="Kısaca Açıklayınız..." required></textarea>
+                    <textarea name="message" id="message" rows="5" class="form-control"
+                        placeholder="Kısaca Açıklayınız..." required></textarea>
                 </div>
                 <input type="hidden" name="_captcha" value="false">
                 <input type="hidden" name="_template" value="box">
@@ -129,36 +138,41 @@
             </form>
             <ul>
                 <li><a href="https://wa.me/905514320155" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
-                <li><a href="mailto:av.sezenbicer@gmail.com" target="_blank"><i class="fa-solid fa-envelope-open"></i></a></li>
-                <li><a href="https://www.instagram.com/sezenbicero/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="mailto:av.sezenbicer@gmail.com" target="_blank"><i
+                            class="fa-solid fa-envelope-open"></i></a></li>
+                <li><a href="https://www.instagram.com/sezenbicero/" target="_blank"><i
+                            class="fab fa-instagram"></i></a></li>
             </ul>
-            
+
         </div>
         <div class="call-adress">
-            
-                <button class="transport call text-center btn btn-primary" onclick="location.href='tel:0551-432-01-55';">
-                    <a href="tel:0551-432-01-55" >+905514320155 </a>
-                    <a href="tel:0551-432-01-55" ><i class="fa-solid fa-phone"></i></a>
-                </button>
-            
-            <button class="transport adress text-center btn btn-primary" onclick="window.open('https://maps.app.goo.gl/QGkMfMZ2xcEyRCGL6','_blank');">
-                <a href="https://maps.app.goo.gl/QGkMfMZ2xcEyRCGL6"  target="_blank">Osmangazi Mah. 578/1. Sok. Bayraklı</a>
-                <a href="https://maps.app.goo.gl/QGkMfMZ2xcEyRCGL6"  target="_blank"><i class="fa-solid fa-location-dot"></i></a>
-                                
+
+            <button class="transport call text-center btn btn-primary" onclick="location.href='tel:0551-432-01-55';">
+                <a href="tel:0551-432-01-55">+905514320155 </a>
+                <a href="tel:0551-432-01-55"><i class="fa-solid fa-phone"></i></a>
             </button>
-            
+
+            <button class="transport adress text-center btn btn-primary"
+                onclick="window.open('https://maps.app.goo.gl/QGkMfMZ2xcEyRCGL6','_blank');">
+                <a href="https://maps.app.goo.gl/QGkMfMZ2xcEyRCGL6" target="_blank">Osmangazi Mah. 578/1. Sok.
+                    Bayraklı</a>
+                <a href="https://maps.app.goo.gl/QGkMfMZ2xcEyRCGL6" target="_blank"><i
+                        class="fa-solid fa-location-dot"></i></a>
+
+            </button>
+
         </div>
     </footer>
     <script>
         function renkDegistir1() {
-            let aa=document.getElementById("birtanecik")
-            aa.style.color="black"
+            let aa = document.getElementById("birtanecik")
+            aa.style.color = "black"
         }
         function renkDegistir2() {
-            let aa=document.getElementById("birtanecik")
-            aa.style.color="white"
+            let aa = document.getElementById("birtanecik")
+            aa.style.color = "white"
         }
-        
+
         /* function NavbarFunc() {
             
 
@@ -173,23 +187,24 @@
             
             
         } */
-        
-        let img=$("#sezo");
+
+        let img = $("#sezo");
         img.hide()
 
-            $("header").click(function(){
-                img.fadeIn(1000) 
-                img.fadeOut(1000)
-            
-                
-                }
-            )
-            
-        function ButtonAc(){
-            document.getElementById("button-sub").innerHTML="Gönderiliyor"
+        $("header").click(function () {
+            img.fadeIn(1000)
+            img.fadeOut(1000)
+
+
+        }
+        )
+
+        function ButtonAc() {
+            document.getElementById("button-sub").innerHTML = "Gönderiliyor"
         }
     </script>
-    
-    
+
+
 </body>
+
 </html>
