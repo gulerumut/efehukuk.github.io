@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
     <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        
     
     
     
@@ -156,7 +158,10 @@
             let aa=document.getElementById("birtanecik")
             aa.style.color="white"
         }
-        function NavbarFunc() {
+        
+        /* function NavbarFunc() {
+            
+
             let bb=document.getElementById("sezo")
             console.log(bb.style.display)
             if (bb.style.display=="flex") {
@@ -167,10 +172,22 @@
             }
             
             
-        }
+        } */
+        let corr=true
+        let img=$("#sezo");
+        img.hide()
+            $("header").click(function(){
+                img.fadeIn(1000) 
+                img.fadeOut(1000)
+                }
+            
+            )
+            
         function ButtonAc(){
             document.getElementById("button-sub").innerHTML="Gönderiliyor"
         }
     </script>
+    
+    
 </body>
 </html>
