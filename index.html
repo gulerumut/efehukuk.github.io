@@ -176,9 +176,16 @@
         let corr=true
         let img=$("#sezo");
         img.hide()
+
             $("header").click(function(){
-                img.fadeIn(1000) 
-                img.fadeOut(1000)
+                while (corr) {
+                    if ($("header").dblclick){
+                        corr=false;
+                    }
+                
+                    img.fadeIn(1000) 
+                    img.fadeOut(1000)
+            }
                 }
             
             )
