@@ -9,6 +9,7 @@
     <meta name="keywords" content="Avukat Hukuk icra dava uyap">
     <meta name="description" content="Sezen Biçer">
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
@@ -18,8 +19,8 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
     <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+    
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
 
 
 
@@ -84,7 +85,36 @@
     </section>
     <section id="works" class="bg-dark-blue">
         <h3 class="text-center heading-big">Hizmetlerim</h3>
-        <div class="items">
+        <div class="w-75 m-auto"  >
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://cdn.create.vista.com/api/media/medium/316236122/stock-photo-hands-men-desperate-catch-iron?token=" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="..." class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+        
+        <!-- <div class="items">
             <article class="item">
                 <i class="fa-solid fa-gavel"></i>
                 <h3>Asliye Hukuk/Ağır Ceza Davaları</h3>
@@ -101,7 +131,7 @@
                 <h3>Özel Hukuk Davaları</h3>
                 <p>Çalışanını tazminatsız kovmak istiyorsan gel bana!</p>
             </article>
-        </div>
+        </div> -->
 
     </section>
     <footer id="contact" class="bg-dark-blue">
@@ -204,7 +234,7 @@
         }
     </script>
 
-
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 
 </html>

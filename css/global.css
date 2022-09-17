@@ -11,13 +11,14 @@ font-face{
 }
 
 .heading-small {
-    font-size: 1.25rem;
+    font-size: 1.25rem !important;
 }
 .heading-medium {
-    font-size: 1.5rem;
+    font-size: 1.5rem !important;
 }
 .heading-big {
-    font-size: 1.75rem;
+    font-size: 1.75rem !important;
+    font-weight: bold;
 }
 
 /* Colors */
