@@ -17,7 +17,14 @@ a {
     color: #fff;
 
 }
-
+a:hover {
+    color:#fff
+}
+.active {
+    background-color: #fff !important;
+    color: #062e51 !important;
+    border-radius: 5px !important;
+}
 ul,ol {
     padding-left: 0px;
 }
@@ -45,12 +52,13 @@ header {
 
 #navbar .main-icon {
     display: flex;
-    flex-direction: column-reverse;
+    
 }
 
 #navbar .main-icon div {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-end;
     align-items: center;
 
 }
@@ -60,10 +68,16 @@ header {
     height: auto;
 }
 
+#fdInOut {
+    margin: 0px auto;
+    width: 200px;
+    height: 30px;
+    display: block;
+}
 #sezo {
     font-family: 'Magesta', sans-serif;
     font-size: 2rem;
-    /* display: none; */
+    
 }
 
 

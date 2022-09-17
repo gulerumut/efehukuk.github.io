@@ -9,7 +9,8 @@
     <meta name="keywords" content="Avukat Hukuk icra dava uyap">
     <meta name="description" content="Sezen Biçer">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
@@ -19,7 +20,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" media="(max-width:768px)" href="css/tablet.css">
     <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
 
@@ -28,184 +29,202 @@
 
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="0" data-bs-smooth-scroll="true" tabindex="0">
 
     <header onclick="NavbarFunc()" class="bg-dark-blue" style="z-index:3">
         <div class="container">
             <nav id="navbar">
                 <div class="main-icon">
-                    <div>
+                    <div class="bicer">
                         <h1 class="heading-big left-b">BİÇER</h1>
-                        <h1 class="heading-small right-b">Hukuk & Danışmanlık</h1>
+
                     </div>
                     <div class="icon">
                         <img src="img/lawyer-icon.png" alt="">
+                        <h1 class="heading-small right-b">Hukuk & Danışmanlık</h1>
+
                     </div>
 
 
                 </div>
-                <div>
-                    <h1 id="sezo">Sezen Biçer</h1>
+                <div id="fdInOut" class="text-center">
+                    <h1 id="sezo">Sezen Biçer</h1><p style="color:#062e51;z-index: -10;opacity: 0;">.</p>
                 </div>
 
-                <ul>
-                    <li><a href="#about">Ana Sayfa</a></li>
-                    <li><a href="#home">Hakkımda</a></li>
-                    <li><a href="#works">Hizmetlerim</a></li>
+                <ul class="navbar nav-pills">
+                    <li class="nav-item"><a class="nav-link" href="#about">Ana Sayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#home">Hakkımda</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#works">Hizmetlerim</a></li>
                     <!-- <li><a href="#career">Kariyer</a></li> -->
-                    <li><a href="#contact">İletişim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">İletişim</a></li>
                 </ul>
             </nav>
         </div>
 
 
     </header>
-    <section id="home">
-        <div onmouseover="renkDegistir1()" onmouseout="renkDegistir2()" class="me">
-            <div class="image-hover text-center">
-                <h1 class="heading-small text-center" id="birtanecik">Bir Tanecik Yüce Avukat</h1>
+    <div >
+        <section id="home">
+            <div onmouseover="renkDegistir1()" onmouseout="renkDegistir2()" class="me">
+                <div class="image-hover text-center">
+                    <h1 class="heading-small text-center" id="birtanecik">Bir Tanecik Yüce Avukat</h1>
+                </div>
+                <img src="img/home_img.jpeg" alt="Yüksek Avukat Sezen Biçer">
+                <div class="name text-center">
+                    <h2 class="heading-big">
+                        Sezen BİÇER
+                    </h2>
+                    <p>Avukat | Lawyer</p>
+                </div>
+
             </div>
-            <img src="img/home_img.jpeg" alt="Yüksek Avukat Sezen Biçer">
-            <div class="name text-center">
-                <h2 class="heading-big">
-                    Sezen BİÇER
-                </h2>
-                <p>Avukat | Lawyer</p>
+            <div id="cv" onmouseover="renkDegistir1()" onmouseout="renkDegistir2()">
+                <p>
+                    Dokuz Eylül Üniversitesinde 5 sene hukuk okudum. Stajımı para karşılığında köle olarak bir yıl süre
+                    ile
+                    yaptım. Bir aydır ceza muhakemesi kanunları çerçevesinde baro için çalışıyorum. Denetimli serbestlik
+                    yoksa tutuksuz yargılanmanızı sağlarım. Çok iyi ajanda tutarım, hiçbir son tarihi kaçırmam. Bu kadar
+                    bilgi size yeterli.
+                </p>
+            </div>
+        </section>
+        <section id="works" class="bg-dark-blue">
+            <h3 class="text-center heading-big hiz">Hizmetlerim</h3>
+            <div id="caro" class="w-75 container-md rounded mt-5 ">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active ">
+                            <img src="img/agır_ceza.jfif" class="d-block rounded img-fluid opacity-75" alt="...">
+                            <div class="carousel-caption d-md-block">
+                                <i class="fa-solid fa-gavel"></i>
+                                <h5>Asliye Hukuk/Ağır Ceza Davaları</h5>
+                                <p>İnsan mı öldürdünüz? Uyuşturucu mu kaçırıyorsunuz? Hırsızlık mı yaptınız? Hiç sorun
+                                    değil. Ben sizi
+                                    savunurum.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="img/icra.jpeg" class="d-block rounded img-fluid opacity-75" alt="...">
+                            <div class="carousel-caption d-md-block">
+                                <i class="fa-solid fa-money-bill-1-wave"></i>
+                                <h5>İcra Davaları</h5>
+                                <p>Borcunuz varsa ödemeyin. Gelin bana ben hallederim.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item ">
+                            <img src="img/hukuk.jpeg" class="d-block rounded img-fluid opacity-75" alt="...">
+                            <div class="carousel-caption d-md-block">
+                                <i class="fa-solid fa-scale-balanced"></i>
+                                <h5>Özel Hukuk Davaları</h5>
+                                <p>Çalışanını tazminatsız kovmak istiyorsan gel bana!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Önceki</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Sonraki</span>
+                    </button>
+                </div>
             </div>
 
-        </div>
-        <div id="cv" onmouseover="renkDegistir1()" onmouseout="renkDegistir2()">
-            <p>
-                Dokuz Eylül Üniversitesinde 5 sene hukuk okudum. Stajımı para karşılığında köle olarak bir yıl süre ile
-                yaptım. Bir aydır ceza muhakemesi kanunları çerçevesinde baro için çalışıyorum. Denetimli serbestlik
-                yoksa tutuksuz yargılanmanızı sağlarım. Çok iyi ajanda tutarım, hiçbir son tarihi kaçırmam. Bu kadar
-                bilgi size yeterli.
-            </p>
-        </div>
-    </section>
-    <section id="works" class="bg-dark-blue" >
-        <h3 class="text-center heading-big hiz">Hizmetlerim</h3>
-        <div id="caro" class="w-75 container-md rounded mt-5 "  >
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active ">
-                    <img src="img/agır_ceza.jfif" class="d-block rounded img-fluid opacity-75" alt="...">
-                    <div class="carousel-caption d-md-block">
-                        <h5>Asliye Hukuk/Ağır Ceza Davaları</h5>
+            <!-- <div class="items">
+                    <article class="item">
+                        <i class="fa-solid fa-gavel"></i>
+                        <h3>Asliye Hukuk/Ağır Ceza Davaları</h3>
                         <p>İnsan mı öldürdünüz? Uyuşturucu mu kaçırıyorsunuz? Hırsızlık mı yaptınız? Hiç sorun değil. Ben sizi
                             savunurum.</p>
-                      </div>
-                  </div>
-                  <div class="carousel-item ">
-                    <img src="img/icra.jpeg" class="d-block rounded img-fluid opacity-75" alt="...">
-                    <div class="carousel-caption d-md-block">
-                        <h5>İcra Davaları</h5>
+                    </article>
+                    <article class="item">
+                        <i class="fa-solid fa-money-bill-1-wave"></i>
+                        <h3>İcra Davaları</h3>
                         <p>Borcunuz varsa ödemeyin. Gelin bana ben hallederim.</p>
-                      </div>
-                  </div>
-                  <div class="carousel-item ">
-                    <img src="img/hukuk.jpeg" class="d-block rounded img-fluid opacity-75" alt="...">
-                    <div class="carousel-caption d-md-block">
-                        <h5>Özel Hukuk Davaları</h5>
+                    </article>
+                    <article class="item">
+                        <i class="fa-solid fa-scale-balanced"></i>
+                        <h3>Özel Hukuk Davaları</h3>
                         <p>Çalışanını tazminatsız kovmak istiyorsan gel bana!</p>
-                      </div>
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Önceki</span>
+                    </article>
+                </div> -->
+
+        </section>
+        <footer id="contact" class="bg-dark-blue">
+            <div class="contact-form">
+                <!-- action="https://formsubmit.co/av.sezenbicer@gmail.com" method="POST" -->
+                <form action="https://formsubmit.co/av.sezenbicer@gmail.com" method="POST">
+                    <h4 class="text-center heading-medium">Bana Ulaşın</h4>
+                    <div class="form-group">
+                        <label for="name">İsim - Soyisim</label>
+                        <input type="text" class="form-control" name="name" id="name" placeholder="İsim - Soyisim"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telefon Numarası <small>(5xxxxxxxxx)</small></label>
+                        <input type="tel" class="form-control" name="phone" id="phone" placeholder="5xx-xxx-xxxx"
+                            pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="text" class="form-control" name="email" id="email" placeholder="ornek@ornek.com"
+                            required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Dava Ayrıntıları</label>
+                        <textarea name="message" id="message" rows="5" class="form-control"
+                            placeholder="Kısaca Açıklayınız..." required></textarea>
+                    </div>
+                    <input type="hidden" name="_captcha" value="false">
+                    <input type="hidden" name="_template" value="box">
+                    <input type="hidden" name="_subject" value="EFE HUKUK">
+                    <input type="hidden" name="_next" value="https://gulerumut.github.io/efehukuk.github.io/">
+                    <input type="hidden" name="_autoresponse" value="İletinizi aldık, en kısa zamanda dönüş yapacağız.">
+                    <button id="button-sub" onclick="ButtonAc()" type="submit" class="btn1 btn-block1">Gönder</button>
+                </form>
+                <ul>
+                    <li><a href="https://wa.me/905514320155" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                    </li>
+                    <li><a href="mailto:av.sezenbicer@gmail.com" target="_blank"><i
+                                class="fa-solid fa-envelope-open"></i></a></li>
+                    <li><a href="https://www.instagram.com/sezenbicero/" target="_blank"><i
+                                class="fab fa-instagram"></i></a></li>
+                </ul>
+
+            </div>
+            <div class="call-adress">
+
+                <button class="transport call text-center btn1 btn-primary1"
+                    onclick="location.href='tel:0551-432-01-55';">
+                    <a href="tel:0551-432-01-55">+905514320155 </a>
+                    <a href="tel:0551-432-01-55"><i class="fa-solid fa-phone"></i></a>
                 </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Sonraki</span>
+
+                <button class="transport adress text-center btn1 btn-primary1"
+                    onclick="window.open('https://maps.app.goo.gl/QGkMfMZ2xcEyRCGL6','_blank');">
+                    <a href="https://maps.app.goo.gl/QGkMfMZ2xcEyRCGL6" target="_blank">Osmangazi Mah. 578/1. Sok.
+                        Bayraklı</a>
+                    <a href="https://maps.app.goo.gl/QGkMfMZ2xcEyRCGL6" target="_blank"><i
+                            class="fa-solid fa-location-dot"></i></a>
+
                 </button>
-              </div>
-        </div>
-        
-        <!-- <div class="items">
-            <article class="item">
-                <i class="fa-solid fa-gavel"></i>
-                <h3>Asliye Hukuk/Ağır Ceza Davaları</h3>
-                <p>İnsan mı öldürdünüz? Uyuşturucu mu kaçırıyorsunuz? Hırsızlık mı yaptınız? Hiç sorun değil. Ben sizi
-                    savunurum.</p>
-            </article>
-            <article class="item">
-                <i class="fa-solid fa-money-bill-1-wave"></i>
-                <h3>İcra Davaları</h3>
-                <p>Borcunuz varsa ödemeyin. Gelin bana ben hallederim.</p>
-            </article>
-            <article class="item">
-                <i class="fa-solid fa-scale-balanced"></i>
-                <h3>Özel Hukuk Davaları</h3>
-                <p>Çalışanını tazminatsız kovmak istiyorsan gel bana!</p>
-            </article>
-        </div> -->
 
-    </section>
-    <footer id="contact" class="bg-dark-blue">
-        <div class="contact-form">
-            <!-- action="https://formsubmit.co/av.sezenbicer@gmail.com" method="POST" -->
-            <form action="https://formsubmit.co/av.sezenbicer@gmail.com" method="POST">
-                <h4 class="text-center heading-medium">Bana Ulaşın</h4>
-                <div class="form-group">
-                    <label for="name">İsim - Soyisim</label>
-                    <input type="text" class="form-control" name="name" id="name" placeholder="İsim - Soyisim" required>
-                </div >
-                <div class="form-group">
-                    <label for="phone">Telefon Numarası <small>(5xxxxxxxxx)</small></label>
-                    <input type="tel" class="form-control" name="phone" id="phone" placeholder="5xx-xxx-xxxx"
-                        pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+            </div>
+        </footer>
+    </div>
 
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="text" class="form-control" name="email" id="email" placeholder="ornek@ornek.com"
-                        required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Dava Ayrıntıları</label>
-                    <textarea name="message" id="message" rows="5" class="form-control"
-                        placeholder="Kısaca Açıklayınız..." required></textarea>
-                </div>
-                <input type="hidden" name="_captcha" value="false">
-                <input type="hidden" name="_template" value="box">
-                <input type="hidden" name="_subject" value="EFE HUKUK">
-                <input type="hidden" name="_next" value="https://gulerumut.github.io/efehukuk.github.io/">
-                <input type="hidden" name="_autoresponse" value="İletinizi aldık, en kısa zamanda dönüş yapacağız.">
-                <button id="button-sub" onclick="ButtonAc()" type="submit" class="btn1 btn-block1">Gönder</button>
-            </form>
-            <ul>
-                <li><a href="https://wa.me/905514320155" target="_blank"><i class="fa-brands fa-whatsapp"></i></a></li>
-                <li><a href="mailto:av.sezenbicer@gmail.com" target="_blank"><i
-                            class="fa-solid fa-envelope-open"></i></a></li>
-                <li><a href="https://www.instagram.com/sezenbicero/" target="_blank"><i
-                            class="fab fa-instagram"></i></a></li>
-            </ul>
-
-        </div>
-        <div class="call-adress">
-
-            <button class="transport call text-center btn1 btn-primary1" onclick="location.href='tel:0551-432-01-55';">
-                <a href="tel:0551-432-01-55">+905514320155 </a>
-                <a href="tel:0551-432-01-55"><i class="fa-solid fa-phone"></i></a>
-            </button>
-
-            <button class="transport adress text-center btn1 btn-primary1"
-                onclick="window.open('https://maps.app.goo.gl/QGkMfMZ2xcEyRCGL6','_blank');">
-                <a href="https://maps.app.goo.gl/QGkMfMZ2xcEyRCGL6" target="_blank">Osmangazi Mah. 578/1. Sok.
-                    Bayraklı</a>
-                <a href="https://maps.app.goo.gl/QGkMfMZ2xcEyRCGL6" target="_blank"><i
-                        class="fa-solid fa-location-dot"></i></a>
-
-            </button>
-
-        </div>
-    </footer>
     <script>
         function renkDegistir1() {
             let aa = document.getElementById("birtanecik")
@@ -233,11 +252,10 @@
 
         let img = $("#sezo");
         img.hide()
-
         $("header").click(function () {
             img.fadeIn(1000)
             img.fadeOut(1000)
-
+            
 
         }
         )
@@ -247,7 +265,9 @@
         }
     </script>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
