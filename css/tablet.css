@@ -9,6 +9,9 @@
     margin-top: 0.5rem;
 
 }
+#works #caro {
+    width: 100% !important;
+}
 #home {
     flex-direction: column;
     padding: 5rem 2rem;
