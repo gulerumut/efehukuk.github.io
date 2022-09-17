@@ -60,15 +60,15 @@ font-face{
   }
   /* Buttons */
 
-.btn {
+.btn1 {
     margin-top: 1.25rem;
     border-radius: 7px;
     letter-spacing: 0.5px;
   }
-  .btn-primary {
+  .btn-primary1 {
     background: #336ea2;
   }
-  .btn-primary:hover {
+  .btn-primary1:hover {
     color: #336ea2;
     /* background: #fff; */
     border: 1px solid #336ea2;
@@ -82,7 +82,10 @@ font-face{
     border: 0.5px solid #333;
   }
   
-  .btn-block {
+  .btn-block1 {
     width: 100%;
     text-align: center;
+    padding-left: 0.33rem !important;
+    padding-right: 0.33rem !important;
+    height: 40px;
   }
