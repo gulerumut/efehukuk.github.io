@@ -227,7 +227,7 @@
                             İletiniz başarı ile bize ulaştı. Size en kısa zamanda dönüş sağlayacağız.
                         </div>
                         <div class="modal-footer">
-                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Kapat</button>
+                            <button onclick="ModalClose()" type="button" class="btn btn-light" data-bs-dismiss="modal">Kapat</button>
                         </div>
                     </div>
                 </div>
@@ -382,16 +382,26 @@
                 $("#canvas-header").hide()
             }
         });
+        /* Modal */
         $(document).ready(function () {
-            let url = window.location.href
+            let url = window.location.href;
             
             if (url.indexOf("modal")>-1) {
                 $(document).ready(function () {
                     
                     $("#exampleModal").modal("show")
+                    
                 })
             }
         })
+        function ModalClose(){
+            let url = window.location.href;
+            url=url.replace("#modal","")
+            console.log(url)
+            window.location.replace(url)
+        }
+
+
 
 
 
