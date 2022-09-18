@@ -273,3 +273,36 @@ header {
     background-color: rgb(37, 36, 36);
     color: #fff;
 }
+.modal-header {
+    background-color: #062e51;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-color: #062e51; */
+}
+.modal-body {
+    color: #fff;
+    background-color: #062e51;
+    
+}
+.modal-footer {
+    background-color: #062e51;
+}
+#modal .main-icon {
+    display: flex;
+
+
+}
+#modal .main-icon div {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+#modal .main-icon img {
+    max-width: 35px;
+    height: auto;
+}
