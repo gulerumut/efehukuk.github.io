@@ -53,6 +53,11 @@ header {
     padding: 0 0.75rem;
     height: 100px;
 }
+#navbar #mobile-nav{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
 
 #navbar .main-icon {
     display: flex;

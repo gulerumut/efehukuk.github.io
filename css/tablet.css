@@ -1,3 +1,9 @@
+#mobile-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
 #navbar {
     height: 160px;
     flex-direction: column;
@@ -33,4 +39,15 @@
 }
 #contact .call-adress {
     padding: 0.5rem;
+}
+
+#canvas-btn{
+    max-width: 500px;
+    padding: 0 1rem;
+    background-color: #fff !important;
+    color: #062e51;
+    position: relative;
+    bottom: 30px;
+    
+    
 }
