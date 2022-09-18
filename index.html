@@ -48,7 +48,8 @@
 
                 </div>
                 <div id="fdInOut" class="text-center">
-                    <h1 id="sezo">Sezen Biçer</h1><p style="color:#062e51;z-index: -10;opacity: 0;">.</p>
+                    <h1 id="sezo">Sezen Biçer</h1>
+                    <p style="color:#062e51;z-index: -10;opacity: 0;">.</p>
                 </div>
 
                 <ul class="navbar nav-pills">
@@ -63,7 +64,7 @@
 
 
     </header>
-    <div >
+    <div>
         <section id="home">
             <div onmouseover="renkDegistir1()" onmouseout="renkDegistir2()" class="me">
                 <div class="image-hover text-center">
@@ -164,7 +165,7 @@
         <footer id="contact" class="bg-dark-blue">
             <div class="contact-form">
                 <!-- action="https://formsubmit.co/av.sezenbicer@gmail.com" method="POST" -->
-                <form action="https://formsubmit.co/av.sezenbicer@gmail.com" method="POST">
+                <form id="form" action="https://formsubmit.co/umutgulerr14@gmail.com" method="POST">
                     <h4 class="text-center heading-medium">Bana Ulaşın</h4>
                     <div class="form-group">
                         <label for="name">İsim - Soyisim</label>
@@ -192,7 +193,8 @@
                     <input type="hidden" name="_subject" value="EFE HUKUK">
                     <input type="hidden" name="_next" value="https://gulerumut.github.io/efehukuk.github.io/">
                     <input type="hidden" name="_autoresponse" value="İletinizi aldık, en kısa zamanda dönüş yapacağız.">
-                    <button id="button-sub" onclick="ButtonAc()" type="submit" class="btn1 btn-block1">Gönder</button>
+                    <!-- <input id="button-sub" type="submit" class="btn1 btn-block1" value="Gönder"> -->
+                    <button id="button-sub" type="submit" class="btn1 btn-block1">Gönder</button>
                 </form>
                 <ul>
                     <li><a href="https://wa.me/905514320155" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
@@ -255,14 +257,18 @@
         $("header").click(function () {
             img.fadeIn(1000)
             img.fadeOut(1000)
-            
+
 
         }
         )
 
-        function ButtonAc() {
-            document.getElementById("button-sub").innerHTML = "Gönderiliyor"
+        $(document).ready(function () {
+            $("#form").submit(function () {
+                $("#button-sub").html('<div class="spinner-border text-primary spinner-border-sm" role="status"></div>  Gönderiliyor')
+            })
         }
+
+        )
     </script>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
