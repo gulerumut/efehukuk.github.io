@@ -77,19 +77,21 @@ header {
     height: auto;
 }
 
-#fdInOut {
+/* #fdInOut {
     margin: 0px auto;
     width: 200px;
     height: 30px;
 
-}
+} */
 
-#sezo {
+/* #sezo {
     font-family: 'Magesta', sans-serif;
     font-size: 2rem;
 
+} */
+#imza {
+    width: 200px;
 }
-
 
 
 #navbar ul {
