@@ -16,11 +16,14 @@
     margin: 1rem auto;
 
 }
-#sezo {
+#fdInOut {
+    display: none;
+}
+/* #sezo {
     font-size: 1.25rem;
     margin-top: 0.5rem;
 
-}
+} */
 #works #caro {
     width: 100% !important;
 }
