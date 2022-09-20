@@ -292,6 +292,8 @@ header {
     
 }
 .modal-footer {
+    display: flex;
+    justify-content: space-around;
     background-color: #062e51;
 }
 #modal .main-icon {
