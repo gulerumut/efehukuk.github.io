@@ -89,3 +89,7 @@ font-face{
     padding-right: 0.33rem !important;
     height: 40px;
   }
+
+#imza_s {
+  max-width: 10rem;
+}
